@@ -6,10 +6,6 @@ import java.sql.Statement;
 
 
 
-/**
- *
- * @author Aspire
- */
 
 public class db {
 private Connection conn;
