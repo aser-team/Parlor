@@ -1,28 +1,17 @@
 
 import java.sql.*;
 import javax.swing.JOptionPane;
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
-/**
- *
- * @author Aspire
- */
+
+
 public class main_window extends javax.swing.JFrame {
                
-    /**
-     * Creates new form main_window
-     */
+  
     public main_window() {
         initComponents();
        
     }
    
-  
-    
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
@@ -286,8 +275,6 @@ public class main_window extends javax.swing.JFrame {
        
        JOptionPane.showMessageDialog(null, e);
    }
-
-
     }//GEN-LAST:event_jButton1ActionPerformed
 
     
