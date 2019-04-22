@@ -65,7 +65,7 @@ public class main_window extends javax.swing.JFrame {
         rd3.setText("Other");
 
         t3.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        t3.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "At My Place", "At Your Place" }));
+        t3.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "At My Place", "At Your Place", "Both" }));
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel4.setText("*Parlour Name    :");
