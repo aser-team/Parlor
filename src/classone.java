@@ -12,10 +12,11 @@ public class classone {
                public String pemail;
                   public String username;
                      public String password;
+                     private byte[] picture;
   
 
     
-    public classone(String pname, String pfor,String pservicel,String pservicet, String powner, int pcontact, String pemail,String username,String password)
+    public classone(String pname, String pfor,String pservicel,String pservicet, String powner, int pcontact, String pemail,String username,String password, byte[] image)
     {
   this.pname =pname;
   this.pfor=pfor;
@@ -26,6 +27,7 @@ public class classone {
           this.pemail=pemail;
           this.username= username;
           this.password=password;
+          this.picture=image;
     }
     
     
@@ -69,6 +71,10 @@ public class classone {
      public String getPassword()
     {
         return password;
+    }
+     public byte[] getImage()
+    {
+        return picture;
     }
     
 }
